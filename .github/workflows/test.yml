@@ -1,0 +1,14 @@
+name: Trigger Site Rebuild on a CRON Schedule
+
+on:
+  schedule:
+    
+    - cron: '30 3 * * *'
+jobs:
+  build:
+    name: Trigger build
+    runs-on: ubuntu-latest
+    steps:
+      - name: run helloworld
+  
+        run: echo "hello-world"
