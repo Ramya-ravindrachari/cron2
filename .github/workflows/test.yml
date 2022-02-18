@@ -7,6 +7,7 @@ on:
     
     # triggered at 10:11 expected at 9:51 am
     - cron: '21 4 * * *'
+    - cron: '6 7 * * *'
 jobs:
   build:
     name: Trigger build
