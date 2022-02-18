@@ -2,7 +2,7 @@ name: Trigger Site Rebuild on a CRON Schedule
 
 on:
   schedule:
-    
+    # triggered at 9:16 expected at 9:09
     - cron: '39 3 * * *'
 jobs:
   build:
