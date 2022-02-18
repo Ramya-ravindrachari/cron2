@@ -4,7 +4,8 @@ on:
   schedule:
     # triggered at 9:16 expected at 9:09
     - cron: '39 3 * * *'
-    # expected at 9:51 am
+    
+    # triggered at 10:11 expected at 9:51 am
     - cron: '21 4 * * *'
 jobs:
   build:
